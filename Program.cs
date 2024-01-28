@@ -2,7 +2,7 @@
 {
     var name = "user";
     Console.Clear();
-    Console.ForegroundColor = ConsoleColor.DarkGreen;
+    Console.ForegroundColor = ConsoleColor.Green;
     Console.WriteLine("Hello. This program creates a password for you");
     Console.Write("Would you like to enter your name?");
     var answer = Console.ReadLine();
@@ -39,7 +39,7 @@
 }
 catch
 {
-    Console.ForegroundColor = ConsoleColor.DarkRed;
+    Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine("Error, please run the program again and provide more detailed information.");
     Console.ResetColor();
 }
